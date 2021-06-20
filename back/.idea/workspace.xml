@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ac857de8-cc3c-4928-adcc-99746103bbbd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../maven" />
+        <option name="userSettingsFile" value="C:\java\maven\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ftnjLs06Qd75QQylhDpjY34D38" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/cn/exrick/xboot/modules/base/utils" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.exrick.xboot.modules.base.serviceimpl.mybatis" />
+      <recent name="cn.exrick.xboot.modules.base.service.mybatis" />
+      <recent name="cn.exrick.xboot.modules.base.dao.mapper" />
+      <recent name="cn.exrick.xboot.modules.base.utils" />
+      <recent name="cn.exrick.xboot.modules.your.util" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\temp\oa\oaback\src\main\java\cn\exrick\xboot\modules\base\utils" />
+      <recent name="D:\temp\oa\oaback\src\main\resources\mapper" />
+      <recent name="D:\temp\oa\oaback\src\main\java\cn\exrick\xboot\modules\base\service\mybatis" />
+      <recent name="D:\temp\oa\oaback\src\main\java\cn\exrick\xboot\modules\base\controller\manage" />
+      <recent name="D:\temp\oa\oaback\src\main\java\cn\exrick\xboot\modules\base\serviceimpl" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.XbootApplication">
+    <configuration name="XbootMPGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.exrick.xboot.generator.XbootMPGenerator" />
+      <module name="oa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.exrick.xboot.generator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XbootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="oa" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.exrick.xboot.XbootApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.XbootMPGenerator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac857de8-cc3c-4928-adcc-99746103bbbd" name="Default Changelist" comment="" />
+      <created>1597046391033</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597046391033</updated>
+      <workItem from="1597046395502" duration="3300000" />
+      <workItem from="1597101008627" duration="13851000" />
+      <workItem from="1597132614742" duration="9834000" />
+      <workItem from="1597186143252" duration="10370000" />
+      <workItem from="1597281696393" duration="13061000" />
+      <workItem from="1597304637971" duration="4964000" />
+      <workItem from="1597317186503" duration="1398000" />
+      <workItem from="1597385061737" duration="5889000" />
+      <workItem from="1597400737674" duration="4057000" />
+      <workItem from="1597448135346" duration="11731000" />
+      <workItem from="1597533489739" duration="3641000" />
+      <workItem from="1598142197453" duration="8292000" />
+      <workItem from="1598151726284" duration="10096000" />
+      <workItem from="1598175862779" duration="242000" />
+      <workItem from="1598226562771" duration="3956000" />
+      <workItem from="1598317753562" duration="15589000" />
+      <workItem from="1598489319898" duration="10543000" />
+      <workItem from="1598518769188" duration="5699000" />
+      <workItem from="1598527427547" duration="53000" />
+      <workItem from="1598790490878" duration="1179000" />
+      <workItem from="1598831699616" duration="2388000" />
+      <workItem from="1598876411128" duration="3541000" />
+      <workItem from="1598917530422" duration="763000" />
+      <workItem from="1598918650394" duration="615000" />
+      <workItem from="1598919565676" duration="8427000" />
+      <workItem from="1598957169773" duration="5612000" />
+      <workItem from="1599003894607" duration="4814000" />
+      <workItem from="1599011909240" duration="1728000" />
+      <workItem from="1599019322681" duration="12677000" />
+      <workItem from="1599044355369" duration="6690000" />
+      <workItem from="1599089814618" duration="139000" />
+      <workItem from="1599100102812" duration="51000" />
+      <workItem from="1599128340491" duration="7027000" />
+      <workItem from="1599201980273" duration="18828000" />
+      <workItem from="1599298296278" duration="8897000" />
+      <workItem from="1599351639270" duration="25000" />
+      <workItem from="1599384337538" duration="9852000" />
+      <workItem from="1599443270715" duration="1534000" />
+      <workItem from="1599450669213" duration="5088000" />
+      <workItem from="1602374419154" duration="296000" />
+      <workItem from="1602375249204" duration="6356000" />
+      <workItem from="1602398485083" duration="4888000" />
+      <workItem from="1602406199096" duration="6284000" />
+      <workItem from="1602462481759" duration="3736000" />
+      <workItem from="1602474981913" duration="304000" />
+      <workItem from="1602486549572" duration="480000" />
+      <workItem from="1602487054559" duration="1010000" />
+      <workItem from="1602488097046" duration="1972000" />
+      <workItem from="1602495093069" duration="2073000" />
+      <workItem from="1602498418675" duration="97000" />
+      <workItem from="1602546634226" duration="1610000" />
+      <workItem from="1602568538510" duration="1332000" />
+      <workItem from="1602589747888" duration="20000" />
+      <workItem from="1602590410569" duration="260000" />
+      <workItem from="1602590692515" duration="21000" />
+      <workItem from="1602730604629" duration="2151000" />
+      <workItem from="1602830600606" duration="8897000" />
+      <workItem from="1602842844793" duration="1207000" />
+      <workItem from="1603011045825" duration="247000" />
+      <workItem from="1603938222611" duration="611000" />
+      <workItem from="1604815977114" duration="2350000" />
+      <workItem from="1604831268094" duration="1056000" />
+      <workItem from="1604891637600" duration="40000" />
+      <workItem from="1605073674012" duration="1915000" />
+      <workItem from="1607043156022" duration="1323000" />
+      <workItem from="1607857017366" duration="1253000" />
+      <workItem from="1607923112223" duration="318000" />
+      <workItem from="1614652250854" duration="1378000" />
+      <workItem from="1614654180497" duration="757000" />
+      <workItem from="1622776127511" duration="663000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="2455" height="295" key="GridCell.Tab.0.bottom" timestamp="1622776790484">
+      <screen x="62" y="0" width="2498" height="1080" />
+    </state>
+    <state width="2455" height="295" key="GridCell.Tab.0.bottom/62.0.2498.1080@62.0.2498.1080" timestamp="1622776790484" />
+    <state width="2455" height="295" key="GridCell.Tab.0.center" timestamp="1622776790484">
+      <screen x="62" y="0" width="2498" height="1080" />
+    </state>
+    <state width="2455" height="295" key="GridCell.Tab.0.center/62.0.2498.1080@62.0.2498.1080" timestamp="1622776790484" />
+    <state width="2455" height="295" key="GridCell.Tab.0.left" timestamp="1622776790484">
+      <screen x="62" y="0" width="2498" height="1080" />
+    </state>
+    <state width="2455" height="295" key="GridCell.Tab.0.left/62.0.2498.1080@62.0.2498.1080" timestamp="1622776790484" />
+    <state width="2455" height="295" key="GridCell.Tab.0.right" timestamp="1622776790484">
+      <screen x="62" y="0" width="2498" height="1080" />
+    </state>
+    <state width="2455" height="295" key="GridCell.Tab.0.right/62.0.2498.1080@62.0.2498.1080" timestamp="1622776790484" />
+    <state width="2455" height="295" key="GridCell.Tab.1.bottom" timestamp="1622776790485">
+      <screen x="62" y="0" width="2498" height="1080" />
+    </state>
+    <state width="2455" height="295" key="GridCell.Tab.1.bottom/62.0.2498.1080@62.0.2498.1080" timestamp="1622776790485" />
+    <state width="2455" height="295" key="GridCell.Tab.1.center" timestamp="1622776790484">
+      <screen x="62" y="0" width="2498" height="1080" />
+    </state>
+    <state width="2455" height="295" key="GridCell.Tab.1.center/62.0.2498.1080@62.0.2498.1080" timestamp="1622776790484" />
+    <state width="2455" height="295" key="GridCell.Tab.1.left" timestamp="1622776790484">
+      <screen x="62" y="0" width="2498" height="1080" />
+    </state>
+    <state width="2455" height="295" key="GridCell.Tab.1.left/62.0.2498.1080@62.0.2498.1080" timestamp="1622776790484" />
+    <state width="2455" height="295" key="GridCell.Tab.1.right" timestamp="1622776790485">
+      <screen x="62" y="0" width="2498" height="1080" />
+    </state>
+    <state width="2455" height="295" key="GridCell.Tab.1.right/62.0.2498.1080@62.0.2498.1080" timestamp="1622776790485" />
+    <state x="791" y="114" key="SettingsEditor" timestamp="1622776209009">
+      <screen x="62" y="0" width="2498" height="1080" />
+    </state>
+    <state x="791" y="114" key="SettingsEditor/62.0.2498.1080@62.0.2498.1080" timestamp="1622776209009" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/exrick/xboot/modules/your/controller/RosterPostController.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

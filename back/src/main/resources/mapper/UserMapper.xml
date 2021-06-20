@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.exrick.xboot.modules.base.dao.mapper.UserMapper">
+
+    <select id="findByIdZwz" resultType="cn.exrick.xboot.modules.base.entity.User">
+        SELECT * from t_user
+        where id = #{id}
+    </select>
+
+    <select id="findAllZwz" resultType="cn.exrick.xboot.modules.base.entity.User">
+        SELECT * from t_user
+    </select>
+
+    <select id="findByNameZwz" resultType="cn.exrick.xboot.modules.base.entity.User">
+        SELECT * from t_user
+        where nickname like #{name}
+    </select>
+
+    <select id="findByMobileZwz" resultType="cn.exrick.xboot.modules.base.entity.User">
+        SELECT * from t_user
+        where mobile = #{mobile}
+    </select>
+
+    <select id="findByDepartmentZwz" resultType="cn.exrick.xboot.modules.base.entity.User">
+        select * from t_user u
+        where u.id in(
+            SELECT distinct ud.user_id from t_user_department ud
+            where ud.department_id = #{departmentId}
+        )
+    </select>
+
+    <select id="findByDepartmentAndNameZwz" resultType="cn.exrick.xboot.modules.base.entity.User">
+        select * from t_user u
+        where u.nickname like #{name} and u.id in(
+            SELECT distinct ud.user_id from t_user_department ud
+            where ud.department_id = #{departmentId}
+        )
+    </select>
+
+    <!-- 根据 岗位 查找用户  [岗位岗级模块查询]-->
+    <select id="findByPostZwz" resultType="cn.exrick.xboot.modules.base.entity.User">
+        select * from t_user u
+        where u.post = #{post}
+    </select>
+
+    <select id="findByRosterIdZwz" resultType="cn.exrick.xboot.modules.base.entity.User">
+        select * from t_user u
+        where u.roster_id = #{rosterId}
+    </select>
+
+    <select id="findNotImportUserData" resultType="cn.exrick.xboot.modules.base.entity.User">
+       SELECT * FROM t_user WHERE post != #{postId}
+    </select>
+</mapper>

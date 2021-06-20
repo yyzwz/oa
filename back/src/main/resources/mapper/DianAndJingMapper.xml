@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.exrick.xboot.modules.crm.mapper.DianAndJingMapper">
+    <select id="findByLi" resultType="cn.exrick.xboot.modules.crm.entity.DianMian">
+        select * from t_dian_mian d where d.id in (
+            select da.dian_id from t_dian_and_jing da where da.jing_li = #{liId}
+        )
+    </select>
+
+    <delete id="deleteJAD">
+        delete from t_dian_and_jing  where jing_li = #{liId} and dian_id = #{dianId}
+    </delete>
+
+    <select id="findNotImport" resultType="cn.exrick.xboot.modules.crm.entity.DianMian">
+        select * from t_dian_mian d where d.dian_name like #{name} and d.id not in(
+            select da.dian_id from t_dian_and_jing da where da.jing_li = #{liId}
+        )
+    </select>
+</mapper>

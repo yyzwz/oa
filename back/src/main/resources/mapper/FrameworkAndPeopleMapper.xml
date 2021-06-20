@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.exrick.xboot.modules.crm.mapper.FrameworkAndPeopleMapper">
+    <select id="findNotImport" resultType="cn.exrick.xboot.modules.crm.entity.Businessman">
+        SELECT * FROM t_businessman WHERE name like #{name} and id NOT IN (
+            SELECT fp.people_id FROM t_framework_and_people fp WHERE fp.framework_id = #{frameworkId}
+        )
+    </select>
+
+    <delete id="deleteJAD">
+        delete from t_framework_and_people where framework_id = #{frameworkId} and people_id = #{peopleId}
+    </delete>
+
+    <select id="findByLi" resultType="cn.exrick.xboot.modules.crm.entity.Businessman">
+        select * from t_businessman where id in (
+            select fp.people_id from t_framework_and_people fp where fp.framework_id = #{frameworkId}
+        )
+    </select>
+</mapper>

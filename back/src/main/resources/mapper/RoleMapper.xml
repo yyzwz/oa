@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.exrick.xboot.modules.base.dao.mapper.RoleMapper">
+    <select id="findByRoleId" resultType="cn.exrick.xboot.modules.base.entity.Role">
+      select * from t_role where is_parent = 0 and id in
+      (SELECT role_id FROM t_role_rolegroup
+      WHERE role_id =  #{roleId})
+    </select>
+
+    <select id="findByRoleGroupId" resultType="cn.exrick.xboot.modules.base.entity.Role">
+      select * from t_role where is_parent = 0 and id in
+      (SELECT distinct role_id FROM t_role_rolegroup
+      WHERE role_group_id =  #{roleGroupId})
+    </select>
+
+    <select id="findNotInRoleGroup" resultType="cn.exrick.xboot.modules.base.entity.Role">
+      select * from t_role where is_parent = 0 and id not in
+      (SELECT distinct role_id FROM t_role_rolegroup
+      WHERE role_group_id =  #{roleGroupId})
+    </select>
+
+    <select id="findAllRoles" resultType="cn.exrick.xboot.modules.base.entity.Role">
+      select * from t_role where is_parent = 0;
+    </select>
+
+    <select id="findNotImportUserByRoleId" resultType="cn.exrick.xboot.modules.base.entity.User">
+        SELECT * FROM t_user WHERE id NOT IN (SELECT user_id FROM t_user_role WHERE role_id = #{roleId})
+    </select>
+</mapper>

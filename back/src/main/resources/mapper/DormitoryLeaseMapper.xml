@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.exrick.xboot.modules.your.mapper.DormitoryLeaseMapper">
+    <select id="findByHouseId" resultType="cn.exrick.xboot.modules.your.entity.DormitoryLease">
+      select * from t_dormitory_lease where house_id = #{houseId};
+    </select>
+</mapper>

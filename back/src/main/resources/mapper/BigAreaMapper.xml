@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.exrick.xboot.modules.crm.mapper.BigAreaMapper">
+    <select id="findBigAreaBySon" resultType="cn.exrick.xboot.modules.crm.entity.BigArea">
+        SELECT * from t_big_area b
+        where b.son_company = #{company};
+    </select>
+</mapper>

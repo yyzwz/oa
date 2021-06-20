@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.exrick.xboot.modules.your.mapper.RosterPostMapper">
+    <select id="findById" resultType="cn.exrick.xboot.modules.your.entity.RosterPost">
+      SELECT * FROM t_roster_post
+      WHERE id = #{id}
+    </select>
+    <select id="findByRosterId" resultType="cn.exrick.xboot.modules.your.entity.RosterPost">
+      SELECT * FROM t_roster_post
+      WHERE roster_id = #{rosterId}
+    </select>
+
+    <delete id="deleteByRosterIdZwz">
+        delete from t_roster_post
+        WHERE roster_id = #{rosterId}
+    </delete>
+</mapper>

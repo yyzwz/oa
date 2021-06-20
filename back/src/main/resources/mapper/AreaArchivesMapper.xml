@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.exrick.xboot.modules.crm.mapper.AreaArchivesMapper">
+    <select id="findAllArea" resultType="string">
+      SELECT distinct title from t_area_archives;
+    </select>
+
+    <select id="findAreaByBigArea" resultType="cn.exrick.xboot.modules.crm.entity.AreaArchives">
+      SELECT * from t_area_archives where big_area = #{area} and son_company = #{company};
+    </select>
+</mapper>

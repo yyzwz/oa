@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.exrick.xboot.modules.crm.mapper.ShengMapper">
+
+    <select id="findAllSheng" resultType="string">
+        SELECT distinct sheng from t_sheng
+    </select>
+
+    <select id="findShengByArea" resultType="cn.exrick.xboot.modules.crm.entity.Sheng">
+        SELECT * from t_sheng
+        where title = #{area};
+    </select>
+</mapper>

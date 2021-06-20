@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.exrick.xboot.modules.your.mapper.WelfareMapper">
+
+    <select id="findByIdZwz" resultType="cn.exrick.xboot.modules.your.entity.Welfare">
+        SELECT * from t_welfare
+        where id = #{id}
+    </select>
+
+    <select id="findByRosterIdZwz" resultType="cn.exrick.xboot.modules.your.entity.Welfare">
+        select * from t_welfare where id in (
+            SELECT p.welfare FROM t_user u,t_roster r,t_post_level p,t_user_and_post_level up
+            WHERE r.id = #{rosterId} AND u.id = up.user_id AND up.level_id = p.id AND r.id = u.roster_id
+        )
+    </select>
+</mapper>

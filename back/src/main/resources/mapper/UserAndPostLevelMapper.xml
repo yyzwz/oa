@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.exrick.xboot.modules.your.mapper.UserAndPostLevelMapper">
+    <delete id="deleteAllByUserId">
+        delete from t_user_and_post_level where user_id = #{userId}
+    </delete>
+    <select id="selectByUserId" resultType="cn.exrick.xboot.modules.your.entity.PostLevel">
+        select * from t_post_level where id in
+        (select level_id from t_user_and_post_level where user_id = #{userId})
+    </select>
+</mapper>

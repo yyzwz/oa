@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.exrick.xboot.modules.your.mapper.PostLevelMapper">
+    <select id="findByIdZwz" resultType="cn.exrick.xboot.modules.your.entity.PostLevel">
+        SELECT * from t_post_level
+        where id = #{id}
+    </select>
+
+    <select id="findListByParentIdZwz" resultType="cn.exrick.xboot.modules.your.entity.PostLevel">
+        SELECT * from t_post_level
+        where parent_id = #{parentId}
+    </select>
+</mapper>
